@@ -6,14 +6,13 @@
 .cor-barra-nav {
   background-color: #be1d2d;
   height: 50px;
-  /*-webkit-tap-highlight-color: rgba(136, 6, 6, 0.884)*/
 }
 .img-logo {
   padding-top: 15px;
   max-width: 100px;
   filter: drop-shadow(-1px 0px 0px #000);
 }
-.ul-nav{
+.ul-nav {
   padding-top: 8px;
 }
 .lista-nav {
@@ -43,8 +42,15 @@
   filter: drop-shadow(0px 2px 0px #000);
   padding-top: 70px;
 }
-
-.btn {
+.position-frase {
+  position: relative;
+  bottom: -15px;
+}
+.btn-posicao {
+  position: relative;
+  bottom: -65px;
+}
+.btn1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 15px;
@@ -59,7 +65,10 @@
   letter-spacing: 0.01em;
 }
 
-.btn:hover {
+.btn1:hover {
   color: #be1d2c;
   background-color: #fff;
+}
+.posicao-card {
+  padding-top: 20px;
 }
