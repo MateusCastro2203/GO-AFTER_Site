@@ -1,0 +1,18 @@
+/*Desktop com telas acima de 1200*/
+@media only screen and (min-width: 1200px) {
+}
+
+/*Desktop com 992 px ate 1199px*/
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/*Tablet*/
+@media only screen and (max-width: 991.98px) and (min-width: 768px) {
+}
+
+/*Celular*/
+@media only screen and (max-width: 767.68px) and (min-width: 576px) {
+}
+/*Celular em modo retrato*/
+@media only screen and (max-width: 575.98px) {
+}
