@@ -60,6 +60,7 @@
   padding-top: 2px;
   border-radius: 8px;
   letter-spacing: 0.01em;
+  border-style: none;
 }
 
 .btn1:hover {
@@ -69,6 +70,7 @@
 .posicao-card {
   padding-top: 20px;
 }
+
 .title-Section{
   padding-top: 10px;
   text-align: center;
