@@ -12,13 +12,12 @@
 </head>
 
 <body>
-   <header class="fundo-header">
+   <header class="fundo-header" id="cabeçalho">
 
       <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #be1d2d; ">
          <div class="container">
             <img class="navbar-brand" src="/img/Logo-header.png" width="100" alt="">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse lista-nav " id="navbarNav">
@@ -46,18 +45,68 @@
          </div>
       </nav>
 
-
-      <div class="title-principal position-frase">
-         <p>conquiste os seus sonhos</p>
-         <p>lorem inpusum</p>
+      <div class="container">
+         <div class="title-principal position-frase">
+            <p>conquiste os seus sonhos</p>
+            <p>lorem inpusum</p>
+         </div>
+         <button type="submit" class="btn1 btn-posicao">inicie seu sonho</button>
       </div>
-      <button type="submit" class="btn1 btn-posicao">inicie seu sonho</button>
-
    </header>
 
-   <section class="container">
+   <section class="container" id="idiomas">
       <h1 class="title-Section">IDIOMAS</h1>
-   <hr>
+      <hr>
+      <div class="row justify-content-around">
+         <div class="col-md-4">
+            <div class="posicao-card">
+               <div class="card" style="width: 18rem;">
+                  <div class="container">
+                     <img src="/img/ingles.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Lingua Inglêsa</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                           the card's content.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="posicao-card">
+               <div class="card " style="width: 18rem;">
+                  <div class="container">
+                     <img src="/img/alemao.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Língua Alemã</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                           the
+                           card's content.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="posicao-card">
+               <div class="card " style="width: 18rem;">
+                  <div class="container">
+                     <img src="/img/portugue.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Língua Portuguesa</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                           the
+                           card's content.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+   </section>
+   <section class="container" id="modelo-de-aulas">
+      <h1 class="title-Section">MODELO DE AULAS</h1>
+      <hr>
       <div class="row justify-content-around">
          <div class="col-md-4">
             <div class="posicao-card">
@@ -88,23 +137,28 @@
                </div>
             </div>
          </div>
-         <div class="col-md-4">
-            <div class="posicao-card">
-               <div class="card " style="width: 18rem;">
-                  <div class="container">
-                     <img src="/img/portugue.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                           the
-                           card's content.</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
 
    </section>
+
+   <section>
+      <hr>
+      <div class="container">
+         <h1 class="title-Section">QUEM SOMOS
+         </h1>
+         <hr>
+
+         <div class="row">
+            <div class="col-md-8">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </div>
+            <div class="col-md-4">
+               <img src="img/alemao.png" alt="Alternate Text" style="width:100%" />
+            </div>
+         </div>
+      </div>
+   </section>
+
 
    <script language="JavaScript" type="text/javascript" src="js/j-query.js"></script>
    <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
