@@ -1,17 +1,49 @@
 /*Desktop com telas acima de 1200*/
 @media only screen and (min-width: 1200px) {
+  /*centralizar a barra de menu- ok*/
 }
 
 /*Desktop com 992 px ate 1199px*/
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  /*
+  Tratar tamano de fonte
+   
+   
+   */
 }
 
 /*Tablet*/
 @media only screen and (max-width: 991.98px) and (min-width: 768px) {
+  /*
+    -Tratar Menu hamburguer;
+   -tratar o texto principal e o botoao
+   
+   TRATAR OS CARDS NESSE TAMANHO: 
+   -espaçamento entre eles, -centralizar o texto 
+   
+   */
 }
 
 /*Celular*/
 @media only screen and (max-width: 767.68px) and (min-width: 576px) {
+  /*centralizar os cards
+      -Tratar Menu hamburguer;
+   -tratar o texto principal e o botoao
+   
+   
+   */
+  .title-principal {
+    font-size: 30px;
+  }
+  .lista-nav-ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .nav-item {
+    margin-left: 0;
+  }
 }
 /*Celular em modo retrato*/
 @media only screen and (max-width: 575.98px) {
