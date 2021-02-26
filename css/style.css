@@ -78,6 +78,43 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
+.footer {
+  width: 100%;
+  padding: 20px;
+}
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #be1d2c;
+  margin: 6px 0 12px 0;
+}
+.footer-historia {
+  padding-right: 40px;
+}
+.footer-contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-rede ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-rede ul li a {
+  border: 3px solid #be1d2c;
+  display: block;
+  padding: 10px;
+}
 
 @media only screen and (max-width: 680px) {
   .title-principal {
