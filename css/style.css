@@ -129,4 +129,13 @@
   .nav-item {
     margin-left: 0;
   }
+  .res{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+   }
 }
