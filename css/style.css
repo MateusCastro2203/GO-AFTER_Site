@@ -1,3 +1,11 @@
+body {
+  background-color: #000;
+}
+
+h1,
+p {
+  color: #fff;
+}
 .fundo-header {
   background: url("../img/background_header.png") no-repeat center;
   height: 400px;
@@ -129,13 +137,13 @@
   .nav-item {
     margin-left: 0;
   }
-  .res{
+  .res {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 100% ;
+    width: 100%;
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
-   }
+  }
 }
