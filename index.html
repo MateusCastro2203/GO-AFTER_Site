@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
    <link rel="stylesheet" href="css//responsivo.css">
    <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -13,12 +13,11 @@
 </head>
 
 <body>
-   <header class="fundo-header" id="cabeçalho">
-
-      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #be1d2da9; ">
+   <header class="fundo-header" id="cabecalho">
+      <nav class="navbar navbar-expand-lg navbar-light nav-fundo-cor">
          <div class="container">
             <img class="navbar-brand" src="/img/Logo-header.png" width="100" alt="">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse lista-nav " id="navbarNav">
@@ -54,67 +53,70 @@
             estude conosco</a>
       </div>
    </header>
-
-   <section class="container" id="idiomas">
-      <h1 class="title-Section">IDIOMAS</h1>
-      <hr>
-      <div class="row">
-         
-         <div class="col-md-4 ">
-            <div class="posicao-card">
-               <div class="card ">
-                  <img src="/img/Aleamao.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                     <h5 class="card-title">Língua Alemã</h5>
-                     <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                     <a href="https://learngerman.dw.com/en/placementDashboard" class="btn btn-danger" target="_blank">Descubra o seu Nivel</a>
+   <section id="idiomas">
+      <div class="container">
+         <h1 class="title-Section">IDIOMAS</h1>
+         <hr>
+         <div class="row">
+            <div class="col-md-4">
+               <div class="posicao-card">
+                  <div class="card">
+                     <img src="img/Aleamao-grande.jpeg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Língua Alemã</h5>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://learngerman.dw.com/en/placementDashboard" class="btn btn-danger" target="_blank">Descubra o seu Nivel</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="posicao-card">
+                  <div class="card">
+                     <img src="img/eua-grande.jpeg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Língua Inglêsa</h5>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://learngerman.dw.com/en/placementDashboard" class="btn btn-danger" target="_blank">Descubra o seu Nivel</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="posicao-card">
+                  <div class="card">
+                     <img src="img/Portugues-grande.jpeg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Língua Portuguêsa</h5>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://learngerman.dw.com/en/placementDashboard" class="btn btn-danger" target="_blank">Descubra o seu Nivel</a>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-         <div class="col-md-4 ">
-            <div class="posicao-card">
-               <div class="card">
-                  <img src="/img/Ingles.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                     <h5 class="card-title">Língua Inglêsa</h5>
-                     <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                     <a href="https://www.efset.org/quick-check/" class="btn btn-danger" target="_blank">Descubra o seu Nivel</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-4 res">
-            <div class="posicao-card">
-               <div class="card ">
-                  <img src="/img/Portugues.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                     <h5 class="card-title">Língua Portuguesa</h5>
-                     <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                     <a href="https://www.efset.org/quick-check/" class="btn btn-danger" target="_blank">Descubra o seu Nivel</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-
+      </div>
    </section>
+
    <hr>
-   <section class="container" id="redacao">
-      <h1 class="title-Section">REDAÇÃO</h1>
-      <hr>
-      <div class="row">
-         <div class="col-md-8 redacaoTexto">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-               aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         </div>
-         <div class="col-md-4 res">
-            <div class="posicao-card">
-               <img src="/img/300.png" class="card-img-top" alt="...">
+   <section id="redacao">
+      <div class="container">
+         <h1 class="card-title">REDAÇÃO</h1>
+         <hr>
+         <div class="row">
+            <div class="col-md-8 redacaoTexto">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-md-4 res">
+               <div class="posicao-card">
+                  <img src="/img/redacao.png" class="card-img-top" alt="...">
+               </div>
             </div>
          </div>
-
+      </div>
    </section>
    <hr>
    <section id="modelo-de-aulas">
@@ -126,7 +128,7 @@
                <div class="posicao-card">
                   <div class="card">
                      <div class="container">
-                        <img src="img/300.png" class="card-img-top posicao-card" alt="...">
+                        <img src="img/modelos_de_aula_Online.png" class="card-img-top posicao-card" alt="...">
                         <div class="card-body">
                            <h5 class="card-title">Online</h5>
                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -141,7 +143,7 @@
                <div class="posicao-card">
                   <div class="card ">
                      <div class="container">
-                        <img src="img/300.png" class="card-img-top posicao-card" alt="...">
+                        <img src="img/modelos_de_aula_Presencial.png" class="card-img-top posicao-card" alt="...">
                         <div class="card-body">
                            <h5 class="card-title">Presencial</h5>
                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -157,7 +159,7 @@
                <div class="posicao-card">
                   <div class="card ">
                      <div class="container">
-                        <img src="img/300.png" class="card-img-top posicao-card" alt="...">
+                        <img src="img/modelos_de_aula_In_company.png" class="card-img-top posicao-card" alt="...">
                         <div class="card-body">
                            <h5 class="card-title">In Company</h5>
                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -184,9 +186,9 @@
 
          <div class="row">
             <div class="col-md-7 quemSomosTexto">
-               <p>Somos um núcleo de línguas com a missão de levar ensino de alta qualidade, 
+               <p>Somos um núcleo de línguas com a missão de levar ensino de alta qualidade,
                   efetivo e adequado às necessidades específicas de nossos alunos e
-                   instituições parceiras.</p>
+                  instituições parceiras.</p>
                <h3 class="quemSomosDiferencial">DIFERENCIAL</h3>
                <p>A Go after reuni as tendências tecnológicas ao ensino personalizado e ao maior contato entre professor e aluno.</p>
             </div>
@@ -203,7 +205,7 @@
          <hr>
          <div class="row justify-content-md-center">
             <div class="col-md-12">
-               <img src="img/fotoDoSistema2.jpeg" class="d-block imgCarouselSistema" alt="...">
+               <img src="img/Portal_do_aluno.jpeg" class="d-block imgCarouselSistema" alt="...">
                <!--
                   <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                      <div class="carousel-inner">
