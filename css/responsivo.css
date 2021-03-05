@@ -14,6 +14,10 @@
 
 /*Tablet*/
 @media only screen and (max-width: 991.98px) and (min-width: 768px) {
+  .footer-rede ul li a {
+    margin-top: 10px;
+    border: 1px solid #be1d2c;
+  }
   /*
     -Tratar Menu hamburguer;
    -tratar o texto principal e o botoao
@@ -32,15 +36,16 @@
    
    
    */
-  .res{
+  .res {
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
-   }
+  }
   .title-principal {
     font-size: 30px;
   }
   .lista-nav-ul {
+    height: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 0px;
