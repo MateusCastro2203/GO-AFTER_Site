@@ -166,26 +166,14 @@ section {
 .redacaoTexto p {
   font-size: 18px;
 }
-.vestibulares{
-  display: flex;
-}
+
 .vestibulares img{
-  width: 150px;
+  width: 100%;
   filter: grayscale(1);
 }
 .vestibulares img:hover{
-  width: 150px;
   filter: grayscale(0);
 }
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 680px) {
   .title-principal {
@@ -217,5 +205,10 @@ section {
   }
   .redacaoTexto {
     margin-top: 10px;
+  }
+  .vestibulares img{
+    width: 150px;
+    filter: grayscale(0);
+
   }
 }
