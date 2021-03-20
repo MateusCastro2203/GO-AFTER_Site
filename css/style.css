@@ -12,14 +12,10 @@ section {
   padding: 10px 0;
   background-size: border-box;
 }
-
-.fundo-header {
-  background: url("../img/rita2.png") no-repeat center;
-  background-size: cover;
-  max-width: 100%;
-  height: 400px;
-  text-align: center;
+a:hover {
+  color: #fff;
 }
+
 .lista-nav-ul {
   display: flex;
   list-style: none;
@@ -31,6 +27,7 @@ section {
 }
 .nav-fundo-cor {
   background-color: #be1d2d;
+  z-index: 2;
 }
 .nav-link {
   font-size: 13px;
@@ -39,33 +36,23 @@ section {
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+
   filter: drop-shadow(1px 1px 1px #000);
 }
-.nav-link:hover {
-  color: #ffffff;
-  border-bottom: 3px solid #fff;
-  filter: drop-shadow(1px 1px 1px #000);
-}
+
 .nav-item {
   margin-left: 20px;
 }
-.title-principal {
-  color: #fff;
-  font-size: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  filter: drop-shadow(2px 2px 2px #000);
-  padding-top: 80px;
+.banners {
+  margin-top: -40px;
 }
-.position-frase {
-  text-align: center;
-  position: relative;
+.banner {
+  width: 100%;
+  height: 540px;
 }
 .btn-posicao {
   position: relative;
-  bottom: -65px;
-  width: 220px;
+  top: 530px;
 }
 .btn1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -97,12 +84,16 @@ section {
 .title-Section {
   display: grid;
   text-align: center;
+  text-decoration: initial;
+  text-transform: uppercase;
   font-family: "Signika", sans-serif;
   font-weight: bold;
   font-size: 60px;
-  text-decoration: initial;
   color: #f8f9fa;
   filter: drop-shadow(2px 2px 3px #000);
+}
+h3.title-Section {
+  font-size: 30px;
 }
 .footer {
   width: 100%;
@@ -166,15 +157,27 @@ section {
 .redacaoTexto p {
   font-size: 18px;
 }
+.vestibulares {
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin-top: 100px;
+}
 
-.vestibulares img{
+.vestibulares ul {
+  list-style: none;
+}
+.vestibulares img {
   width: 100%;
   filter: grayscale(1);
 }
-.vestibulares img:hover{
+.vestibulares img:hover {
   filter: grayscale(0);
 }
-
+#parceiros ul {
+  list-style: none;
+  margin-top: 60px;
+}
 @media only screen and (max-width: 680px) {
   .title-principal {
     font-size: 30px;
@@ -206,9 +209,8 @@ section {
   .redacaoTexto {
     margin-top: 10px;
   }
-  .vestibulares img{
+  .vestibulares img {
     width: 150px;
     filter: grayscale(0);
-
   }
 }

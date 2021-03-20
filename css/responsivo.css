@@ -30,12 +30,6 @@
 
 /*Celular*/
 @media only screen and (max-width: 767.68px) and (min-width: 576px) {
-  /*centralizar os cards
-      -Tratar Menu hamburguer;
-   -tratar o texto principal e o botoao
-   
-   
-   */
   .res {
     margin: 0 auto; /* Added */
     float: none; /* Added */
