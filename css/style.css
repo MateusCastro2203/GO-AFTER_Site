@@ -15,7 +15,6 @@ section {
 a:hover {
   color: #fff;
 }
-
 .lista-nav-ul {
   display: flex;
   list-style: none;
@@ -163,7 +162,6 @@ h3.title-Section {
   border-radius: 10px;
   margin-top: 100px;
 }
-
 .vestibulares ul {
   list-style: none;
 }
@@ -178,6 +176,36 @@ h3.title-Section {
   list-style: none;
   margin-top: 60px;
 }
+#parceiros ul li {
+  text-align: center;
+  margin: 0 auto;
+}
+.img1-parceiros {
+  width: 190px;
+  height: 60px;
+}
+.img2-parceiros {
+  width: 190px;
+  height: 130px;
+}
+.wpp {
+  background: transparent;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+.wpp a {
+  color: #fff;
+  filter: drop-shadow(1px 1px 1px #000);
+}
+.wpp-img {
+  width: 45px;
+  height: 45px;
+  display: block;
+  position: relative;
+  left: 20px;
+}
+
 @media only screen and (max-width: 680px) {
   .title-principal {
     font-size: 30px;
