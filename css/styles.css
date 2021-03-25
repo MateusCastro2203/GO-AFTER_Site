@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap");
+.card-body {
+  text-align: center;
+}
+.card {
+  height: 730px;
+}
+.isSmartPhone{
+  display: none;
+}
+body {
+  font-family: "Signika", sans-serif;
+}
+footer {
+  text-align: left;
+}
+section {
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+a:hover {
+  color: #fff;
+}
+.lista-nav-ul {
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: 5px;
+}
+.lista-nav {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.nav-item:hover {
+  border-bottom: 1px solid #fff;
+}
+.nav-fundo-cor {
+  background-color: #be1d2d;
+  z-index: 2;
+}
+.nav-link {
+  font-size: 13px;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+
+  filter: drop-shadow(1px 1px 1px #000);
+}
+.nav-item {
+  margin-left: 20px;
+}
+.banners {
+  margin-bottom: 40px;
+}
+.btn1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #be1d2c;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 0.01em;
+  font-size: 20px;
+  border: 0.5px solid rgba(156, 12, 12, 0.473);
+  border-radius: 10px;
+}
+.btn1:hover {
+  font-weight: bold;
+  color: #be1d2c;
+}
+.posicao-card {
+  padding-bottom: 40px;
+}
+.card:hover {
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+.title-Section {
+  display: grid;
+  text-align: center;
+  text-decoration: initial;
+  text-transform: uppercase;
+  font-family: "Signika", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: #f8f9fa;
+  filter: drop-shadow(2px 2px 3px #000);
+}
+h3.title-Section {
+  font-size: 30px;
+}
+.footer {
+  width: 100%;
+  padding: 20px;
+}
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #be1d2c;
+  margin: 6px 0 12px 0;
+}
+.footer-historia {
+  padding-right: 40px;
+}
+.footer-contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-rede ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-rede ul li a {
+  border: 3px solid #cccccc;
+  border-radius: 10px;
+  display: block;
+  padding: 10px;
+}
+.card-title {
+  text-align: center;
+  font-size: 30px;
+}
+.quemSomosFoto {
+  width: 100%;
+}
+.quemSomosTexto {
+  margin-top: 60px;
+}
+.quemSomosTexto p {
+  font-size: 18px;
+}
+.quemSomosDiferencial {
+  text-align: center;
+}
+.imgCarouselSistema {
+  width: 100%;
+}
+.redacaoTexto {
+  margin-top: 80px;
+}
+.redacaoTexto p {
+  font-size: 18px;
+}
+.vestibulares {
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.vestibulares ul {
+  list-style: none;
+}
+.vestibulares img {
+  width: 100%;
+  filter: grayscale(1);
+}
+.vestibulares img:hover {
+  filter: grayscale(0);
+}
+#parceiros ul {
+  list-style: none;
+  margin-top: 60px;
+}
+#parceiros ul li {
+  text-align: center;
+  margin: 0 auto;
+}
+.img1-parceiros {
+  width: 190px;
+  height: 60px;
+}
+.img2-parceiros {
+  width: 190px;
+  height: 130px;
+}
+.wpp {
+  background: transparent;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+.wpp a {
+  color: #fff;
+  filter: drop-shadow(1px 1px 1px #000);
+}
+.wpp-img {
+  width: 45px;
+  height: 45px;
+  display: block;
+  position: relative;
+  left: 20px;
+}
+.rede-social {
+  width: 35px;
+  height: 35px;
+}
+@media only screen and (max-width: 680px) {
+  .title-principal {
+    font-size: 30px;
+  }
+  .lista-nav-ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .nav-item {
+    margin-left: 0;
+  }
+  .res {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+  }
+  .quemSomosTexto {
+    margin-top: 10px;
+  }
+  .imgCarouselSistema {
+    width: 100%;
+  }
+  .redacaoTexto {
+    margin-top: 10px;
+  }
+  .vestibulares img {
+    width: 150px;
+    filter: grayscale(0);
+  }
+  .title-Section {
+    font-size: 40px;
+  }
+  .isSmartPhone{
+    display: block;
+  }
+  .isDesktop{
+    display: none;
+  }
+}
