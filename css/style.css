@@ -2,10 +2,9 @@
 .card-body {
   text-align: center;
 }
-.card{
+.card {
   height: 730px;
 }
-
 body {
   font-family: "Signika", sans-serif;
 }
@@ -30,7 +29,6 @@ a:hover {
   padding-left: 10px;
   padding-right: 10px;
 }
-
 .nav-item:hover {
   border-bottom: 1px solid #fff;
 }
@@ -48,7 +46,6 @@ a:hover {
 
   filter: drop-shadow(1px 1px 1px #000);
 }
-
 .nav-item {
   margin-left: 20px;
 }
@@ -127,7 +124,6 @@ h3.title-Section {
   display: block;
   padding: 10px;
 }
-
 .card-title {
   text-align: center;
   font-size: 30px;
@@ -206,7 +202,6 @@ h3.title-Section {
   width: 35px;
   height: 35px;
 }
-
 @media only screen and (max-width: 680px) {
   .title-principal {
     font-size: 30px;
@@ -242,7 +237,7 @@ h3.title-Section {
     width: 150px;
     filter: grayscale(0);
   }
-  .title-Section{
+  .title-Section {
     font-size: 40px;
   }
 }
