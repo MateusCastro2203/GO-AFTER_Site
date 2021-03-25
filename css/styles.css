@@ -8,6 +8,7 @@
 .isSmartPhone{
   display: none;
 }
+
 body {
   font-family: "Signika", sans-serif;
 }
@@ -31,8 +32,9 @@ a:hover {
   padding-left: 10px;
   padding-right: 10px;
 }
-.nav-item:hover {
+.nav-link:hover {
   border-bottom: 1px solid #fff;
+  color: #fff;
 }
 .nav-fundo-cor {
   background-color: #be1d2d;
