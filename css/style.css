@@ -2,6 +2,10 @@
 .card-body {
   text-align: center;
 }
+.card{
+  height: 730px;
+}
+
 body {
   font-family: "Signika", sans-serif;
 }
@@ -28,7 +32,7 @@ a:hover {
 }
 
 .nav-item:hover {
-  border-bottom: 3px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 .nav-fundo-cor {
   background-color: #be1d2d;
@@ -237,5 +241,8 @@ h3.title-Section {
   .vestibulares img {
     width: 150px;
     filter: grayscale(0);
+  }
+  .title-Section{
+    font-size: 40px;
   }
 }
