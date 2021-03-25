@@ -11,6 +11,7 @@ footer {
 section {
   padding: 10px 0;
   background-size: border-box;
+  margin-bottom: 10px;
 }
 a:hover {
   color: #fff;
@@ -18,11 +19,16 @@ a:hover {
 .lista-nav-ul {
   display: flex;
   list-style: none;
-  padding-top: 5px;
+  position: relative;
+  top: 5px;
 }
 .lista-nav {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.nav-item:hover {
+  border-bottom: 3px solid #fff;
 }
 .nav-fundo-cor {
   background-color: #be1d2d;
@@ -43,31 +49,19 @@ a:hover {
   margin-left: 20px;
 }
 .banners {
-  margin-top: -40px;
-  margin-bottom: 80px;
-}
-.btn-posicao {
-  position: relative;
-  top: 360px;
+  margin-bottom: 40px;
 }
 .btn1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  color: #fff;
+
+  color: #be1d2c;
   text-transform: uppercase;
-  margin: 0px auto;
-  width: 200px;
-  height: 30px;
-  background: #be1d2c;
   padding: 5px;
-  border-radius: 8px;
   letter-spacing: 0.01em;
-  border-style: none;
 }
 .btn1:hover {
+  font-weight: bold;
   color: #be1d2c;
-  background-color: #fff;
 }
 .posicao-card {
   padding-bottom: 40px;
@@ -124,10 +118,12 @@ h3.title-Section {
   margin-right: 10px;
 }
 .footer-rede ul li a {
-  border: 3px solid #be1d2c;
+  border: 3px solid #cccccc;
+  border-radius: 10px;
   display: block;
   padding: 10px;
 }
+
 .card-title {
   text-align: center;
   font-size: 30px;
@@ -201,6 +197,10 @@ h3.title-Section {
   display: block;
   position: relative;
   left: 20px;
+}
+.rede-social {
+  width: 35px;
+  height: 35px;
 }
 
 @media only screen and (max-width: 680px) {
